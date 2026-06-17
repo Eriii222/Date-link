@@ -1,2 +1,6 @@
-# Date-link
-Date link with "No" moving effect
+<!DOCTYPE html>
+<html>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; font-size: 150px; margin: 0;">
+    🖕
+</body>
+</html>
