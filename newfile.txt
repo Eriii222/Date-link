@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Request</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; padding-top: 100px; background-color: #ffe6eb; }
+        .container { background: white; padding: 20px; border-radius: 20px; display: inline-block; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        button { padding: 10px 20px; margin: 10px; cursor: pointer; border: none; border-radius: 5px; }
+        #yesBtn { background-color: #ff85a2; color: white; font-size: 20px; }
+        #noBtn { background-color: #ccc; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will you go on a date with me? 🥺</h1>
+        <button id="yesBtn" onclick="alert('Yay! See you then!')">Yes</button>
+        <button id="noBtn" onmouseover="moveButton()">No</button>
+    </div>
+
+    <script>
+        function moveButton() {
+            var btn = document.getElementById("noBtn");
+            btn.style.position = "absolute";
+            btn.style.top = Math.random() * 80 + "%";
+            btn.style.left = Math.random() * 80 + "%";
+        }
+    </script>
+</body>
+</html>
